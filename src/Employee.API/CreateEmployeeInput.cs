@@ -1,0 +1,1 @@
+public record CreateEmployeeInput(string Name, string Document);

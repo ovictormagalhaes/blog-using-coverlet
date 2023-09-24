@@ -1,0 +1,93 @@
+SF:/Users/victor/Repositories/using-coverlet/src/Employee.API/CreateEmployeeInput.cs
+FN:0,System.String CreateEmployeeInput::get_Name()
+FNDA:7,System.String CreateEmployeeInput::get_Name()
+DA:1,7
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/victor/Repositories/using-coverlet/src/Employee.API/EmployeeAggregate.cs
+FN:2,System.Guid EmployeeAggregate::get_Id()
+FNDA:2,System.Guid EmployeeAggregate::get_Id()
+DA:3,2
+FN:3,System.String EmployeeAggregate::get_Name()
+FNDA:2,System.String EmployeeAggregate::get_Name()
+DA:4,2
+FN:4,System.String EmployeeAggregate::get_Document()
+FNDA:2,System.String EmployeeAggregate::get_Document()
+DA:5,2
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:/Users/victor/Repositories/using-coverlet/src/Employee.API/EmployeeController.cs
+FN:7,System.Void EmployeeController::.ctor(IEmployeeService)
+FNDA:1,System.Void EmployeeController::.ctor(IEmployeeService)
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,1
+FN:14,System.Void EmployeeController/<Create>d__2::MoveNext()
+FNDA:1,System.Void EmployeeController/<Create>d__2::MoveNext()
+DA:15,1
+DA:17,1
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/victor/Repositories/using-coverlet/src/Employee.API/EmployeeRepository.cs
+FN:8,System.Threading.Tasks.Task EmployeeRepository::Add(EmployeeAggregate)
+FNDA:1,System.Threading.Tasks.Task EmployeeRepository::Add(EmployeeAggregate)
+DA:9,1
+DA:11,1
+LF:2
+LH:2
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:/Users/victor/Repositories/using-coverlet/src/Employee.API/EmployeeService.cs
+FN:15,System.Threading.Tasks.Task EmployeeService::Add(CreateEmployeeInput)
+FNDA:1,System.Threading.Tasks.Task EmployeeService::Add(CreateEmployeeInput)
+DA:16,1
+DA:18,1
+FN:9,System.Void EmployeeService::.ctor(IEmployeeRepository)
+FNDA:1,System.Void EmployeeService::.ctor(IEmployeeRepository)
+DA:10,1
+DA:11,1
+DA:12,1
+DA:13,1
+LF:6
+LH:6
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:/Users/victor/Repositories/using-coverlet/src/Employee.API/Program.cs
+FN:0,System.Void Program::<Main>$(System.String[])
+FNDA:0,System.Void Program::<Main>$(System.String[])
+DA:1,0
+DA:2,0
+DA:3,0
+DA:5,0
+DA:6,0
+DA:8,0
+DA:9,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
